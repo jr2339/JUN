@@ -2,6 +2,7 @@
 # JUN
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/jr2339/JUN.svg?branch=master)](https://travis-ci.com/jr2339/JUN)
 <!-- badges: end -->
 
 The goal of JUN is to provides functionality for CS599 Project.
