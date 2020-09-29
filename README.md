@@ -26,8 +26,22 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(JUN)
-## basic example code
+## basic KMEANS example code
 KMEANS(data = as.matrix(iris[,1:4]), k =3)
+##The example result of KEMANS is
+$cluster
+[1] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 3 1 3 1 3 3
+[58] 3 1 3 3 3 3 3 3 3 3 3 3 3 3 3 1 3 3 3 1 1 3 3 3 3 3 1 3 3 1 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 1 1 1 1 3 1 1 1 1 1 1 [115] 3 1 1 1 1 1 1 3 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1
+
+$tot.withinss
+[1] 84.07368
+
+$betweenss
+[1] 597.2969
+
+## basic KMEANS example code
+HCLUST(data = as.matrix(iris[,1:4]))
+
 
 ```
 
