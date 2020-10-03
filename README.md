@@ -17,7 +17,7 @@ The goal of JUN is to provides functionality for CS599 Project.
 You can install the released version of JUN from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("JUN")
+install.packages("https://github.com/jr2339/JUN")
 ```
 
 ## Example
